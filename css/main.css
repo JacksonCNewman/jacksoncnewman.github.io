@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
 html {
   font-size: 200%;
+  scroll-behavior: smooth;
 } 
 
 :root {
@@ -112,7 +113,15 @@ h4 {
 
 h5 {
   font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0 0 0;
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: var(--grey-200);
+  width: fit-content;
 }
+
 
 small,
 .text-small {
@@ -282,25 +291,25 @@ Navbar
 }
 
 .nav-center{
-    width: 95vw;
-    max-width: var(--max-width);
+    width: 100vw;
+    /* max-width: var(--max-width); */
 }
 
 .nav-header{
-    height: 6rem;
+    height: 3rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
 }
 
-.nav-logo {
+/* .nav-logo {
     display: flex;
     align-items: center;
-}
+} */
 
-.nav-header img{
+/* .nav-header img{
     width: 225px;
-}
+} */
 
 .nav-btn{
     padding: 0.15rem 0.75rem
@@ -319,7 +328,7 @@ Navbar
 }
 
 .show-links {
-    height: 375px;
+    height: 225px;
 }
 
 .nav-link{
@@ -328,7 +337,7 @@ Navbar
     color: black;
     letter-spacing: var(--letterSpacing);
     background-color: var(--backgroundColor);
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
     transition: var(--transition);
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -351,7 +360,7 @@ Navbar
     }
     .nav-center {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
     }
     .nav-header {
         height: auto;
@@ -367,7 +376,7 @@ Navbar
     .nav-link {
         padding: 0;
         border-top: none;
-        margin-right: 1rem;
+        margin-right: .5rem;
         font-size: 1rem;
         border-top: 0;
         border-bottom: 0;
@@ -378,6 +387,49 @@ Navbar
     }
 
 }
+
+
+.name {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.about {
+  background-color: var(--grey-200);
+  width: 90vw;
+  margin: auto;
+  height: 40vw;
+}
+
+/* .separator {
+  width: 90vw;
+  min-height: 25vw;
+  border-right: 100vw solid transparent;
+  border-bottom: 9vw solid var(--grey-200);
+  margin-top: -13.9vw;
+} */
+
+h5.about-header {
+  /* margin-left: 5rem; */
+  /* text-align: center; */
+  /* padding-top: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  margin: auto;
+  padding-right: 50px;
+  clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+/* p.about {
+  font-size: 2rem;
+  border: 4px solid;
+  padding: 2rem 0.5rem 1.5rem;
+} */
+
 
 /*
 =============== 
