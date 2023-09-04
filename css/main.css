@@ -411,17 +411,17 @@ Navbar
   justify-content: center;
 }
 
-
+/* 
 .about {
-  /* background-color: var(--grey-200); */
+  background-color: var(--grey-200);
   width: 80vw;
   margin: auto;
   height: 40vw;
-  /* display: flex; */
+  display: flex;
   justify-content: left;
   align-items: left;
   background-image: url("../assets/about-background.jpg");
-}
+} */
 
 /* .separator {
   width: 90vw;
